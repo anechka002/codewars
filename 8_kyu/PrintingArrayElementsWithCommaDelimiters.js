@@ -17,4 +17,3 @@ function printArray(array){
   return array.join(',')
 }
 console.log(printArray([2, 3, 4, 5]))
-console.log(printArray([[1,2],["a","b"]]))
