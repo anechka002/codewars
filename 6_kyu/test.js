@@ -94,18 +94,59 @@
 // console.log(groupByDepartment(employees))
 
 //========================================
-const products = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+// const products = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
 
-function countUniqueProducts(products) {
-  let obj = {};
-  if(products.length === 0) return obj
-  products.forEach((el) => {
-    if(!obj[el]) {
-      obj[el] = 1;
-    } else {
-      obj[el] += 1;
-    }
-  })
-  return obj
-}
-console.log(countUniqueProducts(products))
+// function countUniqueProducts(products) {
+//   let obj = {};
+//   if(products.length === 0) return obj
+//   products.forEach((el) => {
+//     if(!obj[el]) {
+//       obj[el] = 1;
+//     } else {
+//       obj[el] += 1;
+//     }
+//   })
+//   return obj
+// }
+// console.log(countUniqueProducts(products))
+//========================================
+// const text = "hello world hello everyone";
+
+// function wordFrequency(text) {
+//   let obj = {};
+//   const arr = text.replace(/[.,!?]/g, '').toLowerCase().split(' ')
+//   arr.forEach((el) => {
+//     if(!obj[el]) {
+//       obj[el] = 1;
+//     } else {
+//       obj[el] += 1;
+//     }
+//   })
+//   return obj
+// }
+// console.log(wordFrequency(text))
+
+//========================================
+
+// const people = [
+//   { name: 'Alice', age: 30 },
+//   { name: 'Bob', age: 25 },
+//   { name: 'Charlie', age: 30 },
+//   { name: 'David', age: 25 }
+// ];
+
+// function groupByAge(people) {
+//   const obj = {};
+//   if (people.length === 0) {
+//     return {};
+//   }
+//   people.forEach((person) => {
+//     if (!obj[person.age]) {
+//       obj[person.age] = [];
+//     } 
+//     obj[person.age].push(person.name);
+//   })
+//   return obj
+// }
+// console.log(groupByAge(people))
+// console.log(groupByAge([]))
