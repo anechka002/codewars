@@ -150,3 +150,7 @@
 // }
 // console.log(groupByAge(people))
 // console.log(groupByAge([]))
+
+//========================================
+
+console.log(typeof typeof 7)
